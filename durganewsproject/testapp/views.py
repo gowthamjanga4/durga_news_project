@@ -7,7 +7,7 @@ from django.shortcuts import render
 def index_view(request):
     return render(request, 'testapp/index.html')
 
-
+# This is second view
 def movies_view(request):
     msg1 = 'pushpa2 released in december and became blockbuster'
     msg2 = 'Mahesh and rajamouli movie workshop begins'
